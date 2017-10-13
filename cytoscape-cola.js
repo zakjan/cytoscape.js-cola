@@ -509,7 +509,7 @@ SOFTWARE.
       adaptor
         .avoidOverlaps( options.avoidOverlap )
         .handleDisconnected( options.handleDisconnected )
-        .start( options.unconstrIter, options.userConstIter, options.allConstIter)
+        .start( options.unconstrIter, options.userConstIter, options.allConstIter, 0, false)
       ;
 
       if( !options.infinite ){
